@@ -1,0 +1,46 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="#Home" class="active">Home</a>
+  <a href="#About">About</a>
+  <a href="#Services">Services</a>
+  <a href="#Contact">Contact</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>   
+<div id="Home" class="Header">
+  <h1> Treehouse Urban Farm and Landscaping </h1>  
+</div>
+
+<div id="About">
+<p> Treehouse Urban Farm and Landscaping offers edible landscaping, victory gardening, and classical landscape design services. We tend to your needs so that you can have beautiful landscapes and wonderful gardens in an urban setting. </p>
+  </div>
+ <!---Services via expandable boxes listed--->
+<div id="Services" class="Services">
+  <div class="Gardens">
+    <h2> Gardens </h2>
+    <p> Consultation, Maintenance, or Design</p>
+    <p> Starting at $40/hour </p>
+  </div>
+  <div class="CleanUp">
+    <h2> Clean Up </h2>
+    <p> Leaf Removal, Debris Hauling, Storm Cleanup</p>
+    <p> Starting at $30/hour </p>
+   </div>
+   <div class="Trimming">
+     <h2> Trimming and Restoration </h2>
+     <p> Hedge and Shrub Trimming or Restoration </p>
+     <p> Startng at $40/hour </p>
+   </div>
+</div>
+
+<div id="Contact" class="Contact">
+  <h2>Contact us</h2>
+   <input type="text" id="input-name" placeholder="Name">
+   <input type="text" id="input-email" placeholder="Email">
+   <input type="text" id="input-message" placeholder="Message">
+ <input type="submit" value="Submit" id="input-submit">
+</div>
